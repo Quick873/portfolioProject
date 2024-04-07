@@ -1,4 +1,23 @@
+@import url('https://fonts.cdnfonts.com/css/genty-demo');
+                
+
 * {
     background-image: url(images/redbeardBackground.jpg);
-    
+    font-family: 'Genty Demo', sans-serif;
+}
+#heading {
+    box-shadow: 10px 5px 5px blue;
+    border-radius: 25px;
+}
+nav {
+    background-color: aliceblue;
+    box-shadow: 0px 2px gray;
+}
+
+a {
+    text-decoration: none;
+}
+#logo {
+    border-radius: 25px;
+    box-shadow: 2px 1px 1px gray;
 }
