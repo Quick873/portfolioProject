@@ -2,8 +2,10 @@
                 
 
 * {
-    background-image: url(images/redbeardBackground.jpg);
     font-family: 'Genty Demo', sans-serif;
+}
+body {
+    background-image: url(images/redbeardBackground.jpg);
 }
 #heading {
     box-shadow: 10px 5px 5px blue;
@@ -12,12 +14,47 @@
 nav {
     background-color: aliceblue;
     box-shadow: 0px 2px gray;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
-
 a {
     text-decoration: none;
+    color: darkblue;
 }
 #logo {
     border-radius: 25px;
-    box-shadow: 2px 1px 1px gray;
+    /*box-shadow: .5px .5px gray;*/
+}
+#links {
+    justify-content: space-evenly;
+}
+h2 {
+    text-align: center;
+    color: green;
+}
+#aboutMeContainers {
+    display: flex;
+    justify-content: space-evenly;
+}
+#aboutInfo {
+    background-color: beige;
+    box-shadow: 2px 1px blue;
+    width: 30%;
+    padding: 20px;
+    border-radius: 25px;
+}
+#photo {
+    width: 30%;
+    background-color: beige;
+    box-shadow: 2px 1px blue;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 25px;
+}
+#selfie {
+    border-radius: 25px;
+    margin: 10px;
+    box-shadow: 5px 3px gray;
 }
