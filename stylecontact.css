@@ -1,6 +1,6 @@
 .container {
     background-color: chocolate;
-    color: blueviolet;
+    color: yellow;
     resize: vertical;
     align-items: center;
     border: 5px solid green;
@@ -8,8 +8,20 @@
     box-shadow: 10px 5px gray;
     justify-content: center;
     display: flex;
-    width: 75%;
+    width: 50%;
 }
 h1 {
+    text-align: center;
+}
+body {
+    justify-content: center;
+    display: flex;
+}
+div {
+    margin: 25px;
+    display: flex;
+    flex-direction: column;
+}
+label {
     text-align: center;
 }
