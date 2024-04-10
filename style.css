@@ -58,3 +58,18 @@ h2 {
     margin: 10px;
     box-shadow: 5px 3px gray;
 }
+#skills {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: aliceblue;
+    box-shadow: 5px 2px gray;
+    margin-bottom: 20px;
+}
+footer {
+    background-color: aliceblue;
+    box-shadow: 0px 2px gray;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
