@@ -1,4 +1,15 @@
 .container {
     background-color: chocolate;
     color: blueviolet;
+    resize: vertical;
+    align-items: center;
+    border: 5px solid green;
+    border-radius: 10px;
+    box-shadow: 10px 5px gray;
+    justify-content: center;
+    display: flex;
+    width: 75%;
+}
+h1 {
+    text-align: center;
 }
