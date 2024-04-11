@@ -73,3 +73,11 @@ footer {
     align-items: center;
     justify-content: space-between;
 }
+@media only screen and (max-width: 600px) {
+    #logo {
+        visibility: hidden;
+    }
+    #photo {
+        visibility: hidden;
+    }
+}
